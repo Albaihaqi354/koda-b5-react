@@ -13,7 +13,7 @@ export default function Counter() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-2xl font-semibold mb-6">Plus Minus Number</h1>
+      <h1 className="text-2xl font-semibold mb-6">Plus Minus Number </h1>
 
       <div className="p-6 rounded-lg shadow-md flex flex-col items-center gap-4">
         <p className="text-4xl font-bold">{count}</p>
