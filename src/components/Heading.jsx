@@ -1,5 +1,11 @@
 import { Link } from 'react-router'
 
+/**
+ * @param {string} props.title
+ * @returns {JSX.Element}
+ * 
+ */
+
 function Heading({title}) {
   return (
     <>

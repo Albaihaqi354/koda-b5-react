@@ -1,6 +1,19 @@
 import React from 'react'
 
-function Review() {
+function Review( ) {
+    // const [name, setName] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [message, setMessage] = useState("");
+  
+    // const handleSubmit = (e) => {
+    //   e.preventDefault();
+  
+    //   const newProduct = { name, email, message, };
+    //   onAddProduct(newProduct);
+  
+    //   setName("");
+    //   setEmail("");
+    //   setMessage("");
   return (
     <div className='flex justify-center mt-5'>
         <form className='flex flex-col w-[500px] gap-5'>
