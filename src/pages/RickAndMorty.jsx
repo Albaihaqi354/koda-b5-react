@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import SearchBar from "../components/SearchBar";
 import CharacterGrid from "../components/CharacterGrid";
+import Heading from "../components/Heading";
 
 function RickAndMorty() {
   const [characters, setCharacters] = useState([]);
@@ -41,6 +42,8 @@ function RickAndMorty() {
   };
 
   return (
+    <>
+    <Heading title={"Bian Albaihaqi"} />
     <div className="p-6 max-w-6xl mx-auto">
       <h1 className="text-3xl font-bold mb-4 text-center">
         Rick and Morty Character
@@ -65,6 +68,7 @@ function RickAndMorty() {
 
       <CharacterGrid characters={characters} />
     </div>
+    </>
   );
 }
 
