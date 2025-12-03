@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import SearchBar from "../components/SearchBar";
 import CharacterGrid from "../components/CharacterGrid";
 import Heading from "../components/Heading";
+import Footer from '../components/Footer.jsx'
 
 function RickAndMorty() {
   const [characters, setCharacters] = useState([]);
@@ -68,6 +69,7 @@ function RickAndMorty() {
 
       <CharacterGrid characters={characters} />
     </div>
+    <Footer/>
     </>
   );
 }
