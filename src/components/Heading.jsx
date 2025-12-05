@@ -20,7 +20,7 @@ function Heading({title}) {
                 <Link to={"/Product"}>Product</Link>
                 </li>
                 <li className=' text-black hover:text-amber-50'>
-                <Link to={"/Rick"}>RickAndMorty</Link>
+                <Link to={"/characters"}>RickAndMorty</Link>
                 </li>
             </ul>
             </nav>

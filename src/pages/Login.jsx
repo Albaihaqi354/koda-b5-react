@@ -10,7 +10,7 @@ function Login() {
     e.preventDefault();
     setLogin("")
     setPassword("")
-  };  
+  };   
   return (
     <>
         <div>
